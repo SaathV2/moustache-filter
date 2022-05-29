@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-info:hover{
+    background-color: darkslategray;
+}
+
+canvas{
+    animation-name : lights;
+    animation-duration : 4s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes lights{
+    from {box-shadow:1px 1px 38px darkslategray;}
+    to {box-shadow: 1px 1px 38px darkturquoise;}
+}
+
